@@ -1,5 +1,3 @@
-package exam;
-
 import java.io.IOException;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
