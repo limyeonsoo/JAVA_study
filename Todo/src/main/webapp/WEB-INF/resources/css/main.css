@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#leftBody{
+  float : left;
+  width : 40%;
+  font : large;
+  font-weight : bold;
+  transform: rotate(-45deg);
+}
+
+#rightBody{
+  float : right;
+  width : auto;
+  margin-top:5%;
+  border : 1px solid blue;
+  color : white;
+  background : blue;
+}
+
+#centerBody{
+  padding-top : 5%;
+  margin-left : 10%;
+  width: 80%;
+  display : flex;
+  flex-wrap: wrap;
+  justify-content : space-between;
+}
+
+.attribute{
+  line-height : 40px;
+  height : 40px;
+  border : 1px solid blue;
+  background : blue;
+  flex : 1 1 30%;
+  margin : 1% 1% 1% 1%;
+}
+.information{
+  font-size : 1rem;
+  display : inline-block;
+}
