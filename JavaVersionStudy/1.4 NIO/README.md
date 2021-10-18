@@ -6,7 +6,7 @@
 
 ### NIO Scatter & Gather
 
-[NIO Scatter & Gather](NIO%20Scatter%20&%20ather/README.md)
+[NIO Scatter & Gather](NIO%20Scatter%20&%20Gather/README.md)
 
 ### NIO Pipe
 
