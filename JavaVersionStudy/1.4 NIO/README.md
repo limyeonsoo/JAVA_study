@@ -2,15 +2,15 @@
 
 ### NIO Channel & Buffer
 
-[NIO Channel & Buffer](NIO%20a4d127621ba24101ae01b6f164c1d714/NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe.md)
+[NIO Channel & Buffer](NIO Channel & Buffer/README.md)
 
 ### NIO Scatter & Gather
 
-[NIO Scatter & Gather](NIO%20a4d127621ba24101ae01b6f164c1d714/NIO%20Scatter%20&%20Gather%20388c882a284e43808b1b26685aec9132.md)
+[NIO Scatter & Gather](NIO Scatter & Gather/README.md)
 
 ### NIO Pipe
 
-[NIO Pipe](NIO%20a4d127621ba24101ae01b6f164c1d714/NIO%20Pipe%20d1b5541f45a84dd5ab715b7bbe900b07.md)
+[NIO Pipe](NIO Pipe/README.md)
 
 ## IO vs NIO
 
@@ -25,7 +25,7 @@
 - 장점:
     1. 많은 데이터를 다루는 경우 적합함.
 
-![Untitled](Untitled.png)
+![Untitled1](Untitled.png)
 
 ### NIO
 
@@ -42,4 +42,4 @@
     2. socket, p2p 여러 연결을 동시에 처리할 수 있음.
     단, 데이터가 소량이여야함.
 
-![Untitled](Untitled 1.png)
+![Untitled](Untitled1.png)
