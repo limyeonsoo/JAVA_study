@@ -10,7 +10,7 @@
 Thread A —> Thread B
 사이에서 Pipe ( Sink channel & Source Channel )로 연결 가능.
 
-![Untitled](NIO%20Pipe%20d1b5541f45a84dd5ab715b7bbe900b07/Untitled.png)
+![Untitled](Untitled.png)
 
 ### 1. Pipe
 
@@ -49,7 +49,7 @@ int bytesRead = sourceChannel.read(bufferWrite);
 System.out.println(bytesRead);
 ```
 
-![Untitled](NIO%20Pipe%20d1b5541f45a84dd5ab715b7bbe900b07/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 ### 이걸 어디에 쓸까?
 

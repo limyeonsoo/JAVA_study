@@ -7,7 +7,7 @@ Channel은 1개이다.
 
 channel → Buffer들 로 read할 때.
 
-![Untitled](NIO%20Scatter%20&%20Gather%20388c882a284e43808b1b26685aec9132/Untitled.png)
+![Untitled](Untitled.png)
 
 Buffer 1개를 다 채워야 2번째 버퍼로 감.
 
@@ -27,7 +27,7 @@ channel.read(bufferArray);
 
 ## Gather
 
-![Untitled](NIO%20Scatter%20&%20Gather%20388c882a284e43808b1b26685aec9132/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 Buffer가 128로 만들어져있지만,
 일부만 채워져있을 경우에 채워진 부분만 Channel에 Write함.

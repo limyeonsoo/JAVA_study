@@ -42,4 +42,4 @@
     2. socket, p2p 여러 연결을 동시에 처리할 수 있음.
     단, 데이터가 소량이여야함.
 
-![Untitled](Untitled1.png)
+![Untitled](Untitled 1.png)

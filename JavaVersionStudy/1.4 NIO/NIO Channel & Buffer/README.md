@@ -17,7 +17,7 @@
     - read from a channel into a buffer
     - written from a buffer to a channel
     
-    ![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled.png)
+    ![Untitled](Untitled.png)
     
 
 ### Blocking / NonBlocking
@@ -77,7 +77,7 @@ read/written되지 않는 첫 번째 element의 index  ⇒ 첫 번째 빈공간�
 다음으로 read/written 될 element의 index
 음수가 안되고 limit보다 크지 않음.
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 **ex) 기본 7바이트로 Buffer를 만들면.**
 
@@ -85,7 +85,7 @@ read/written되지 않는 첫 번째 element의 index  ⇒ 첫 번째 빈공간�
 ByteBuffer buffer = ByteBuffer.allocateDirect(7);
 ```
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%202.png)
+![Untitled](Untitled%202.png)
 
 **< 5바이트 저장 >**
 
@@ -97,7 +97,7 @@ buffer.put((byte) 13);
 buffer.put((byte) 14);
 ```
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%203.png)
+![Untitled](Untitled%203.png)
 
 ### method
 
@@ -115,7 +115,7 @@ buffer.put((byte) 14);
 buffer.flip();
 ```
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%204.png)
+![Untitled](Untitled%204.png)
 
 **< 읽기 >**
 
@@ -123,7 +123,7 @@ buffer.flip();
 buffer.get(new byte[3]);
 ```
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%205.png)
+![Untitled](Untitled%205.png)
 
 - mark()
     
@@ -138,11 +138,11 @@ buffer.get(new byte[3]);
 buffer.mark();
 ```
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%205.png)
+![Untitled](Untitled%205.png)
 
 **< mark된 채로 2바이트 더 읽기 >**
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%206.png)
+![Untitled](Untitled%206.png)
 
 - reset()
     
@@ -155,7 +155,7 @@ buffer.mark();
 buffer.reset();
 ```
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%207.png)
+![Untitled](Untitled%207.png)
 
 - rewind()
     
@@ -169,7 +169,7 @@ buffer.reset();
 buffer.rewind();
 ```
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%208.png)
+![Untitled](Untitled%208.png)
 
 - clear()
     
@@ -182,7 +182,7 @@ buffer.rewind();
 buffer.clear();
 ```
 
-![Untitled](NIO%20Channel%20&%20Buffer%2098de7ea8e2074396a8c8c7921c0ff8fe/Untitled%209.png)
+![Untitled](Untitled%209.png)
 
 - compact()
     
