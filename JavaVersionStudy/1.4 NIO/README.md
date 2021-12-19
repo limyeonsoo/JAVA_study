@@ -2,15 +2,23 @@
 
 ### NIO Channel & Buffer
 
+<<<<<<< HEAD
 [NIO Channel & Buffer](NIO Channel-&-Buffer/README.md)
 
 ### NIO Scatter & Gather
 
 [NIO Scatter & Gather](NIO Scatter-&-Gather/README.md)
+=======
+[NIO Channel & Buffer](NIO%20Channel%20&%20Buffer/README.md)
+
+### NIO Scatter & Gather
+
+[NIO Scatter & Gather](NIO%20Scatter%20&%20Gather/README.md)
+>>>>>>> 51195717614629639e3b112c1401588004c026c0
 
 ### NIO Pipe
 
-[NIO Pipe](NIO Pipe/README.md)
+[NIO Pipe](NIO%20Pipe/README.md)
 
 ## IO vs NIO
 
